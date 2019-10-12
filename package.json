@@ -1,0 +1,30 @@
+{
+  "name": "cardamom",
+  "version": "1.0.0",
+  "description": "Consumable media list and recommendation stockpiler",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubnev/cardamom.git"
+  },
+  "keywords": [
+    "node",
+    "media",
+    "list"
+  ],
+  "author": "Will Neville",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dubnev/cardamom/issues"
+  },
+  "homepage": "https://github.com/dubnev/cardamom#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
