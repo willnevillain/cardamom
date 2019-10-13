@@ -2,19 +2,16 @@
   "name": "cardamom",
   "version": "1.0.0",
   "description": "Consumable media list and recommendation stockpiler",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dubnev/cardamom.git"
   },
-  "keywords": [
-    "node",
-    "media",
-    "list"
-  ],
+  "keywords": [],
   "author": "Will Neville",
   "license": "GPL-3.0-or-later",
   "bugs": {
@@ -22,9 +19,13 @@
   },
   "homepage": "https://github.com/dubnev/cardamom#readme",
   "dependencies": {
+    "dotenv": "^8.1.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
     "nodemon": "^1.19.3"
   }
 }
